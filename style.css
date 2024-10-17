@@ -1,0 +1,777 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.ri-shopping-cart-2-fill {
+    color: white;
+}
+
+.ri-check-line {
+    color: rgb(51, 196, 51);
+    font-weight: 1000;
+    font-size: 25px;
+}
+
+header main {
+    display: flex;
+    flex-direction: column;
+}
+
+header main .gambar-main {
+    margin-top: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header main .gambar-main img {
+    width: 40%;
+}
+
+header main .text-header {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding: 10px 50px 0 25px;
+    align-items: center;
+}
+
+header main .text-header h1:nth-child(1){
+    color: rgb(0, 136, 255);
+}
+
+header main .text-header p:nth-child(2) {
+    background-color: rgb(185, 229, 237);
+    border-radius: 20px;
+    padding: 3px 30px 3px 8px;
+    color: rgb(66, 116, 208);
+}
+
+header main .text-header button {
+    background-color: rgb(0, 136, 255);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 200ms ease-in-out;
+}
+
+header main .text-header button:hover {
+    background-color: rgb(69, 158, 235);
+}
+
+header .sponsor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 20px;
+}
+
+header .sponsor p {
+    width: 90%;
+}
+
+header .sponsor .sponsor-img {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+article {
+    background-color: rgb(0, 136, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+article h2 {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    /* z-index: 1; */
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.card .card-satu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 40px;
+    border: 1px solid black;
+    margin-top: 60px;
+}
+
+.card .card-satu .user img {
+    width: 40%;
+} 
+
+.card .card-dua {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 40px;
+    border: 1px solid black;
+}
+
+.card .card-dua .user img {
+    width: 40%;
+} 
+
+ .card .card-tiga {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 40px;
+    border: 1px solid black;
+}
+
+.card .card-tiga .user img {
+    width: 40%;
+}
+
+.wrap-card .wrap-button {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.wrap-card button {
+    background-color: white;
+    color: rgb(0, 136, 255);
+    border: 1px solid rgb(0, 136, 255);
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.masalah {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 70px 0;
+    background-color: #eae7e7;
+}
+
+.masalah img {
+    width: 25%;
+}
+
+.produk {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 136, 255);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.produk .gambar-produk-satu {
+    width: 100%;
+    text-align: center;
+}
+
+.produk .gambar-produk-satu img {
+    width: 50%;
+}
+
+.produk .nama-produk {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.produk .nama-produk h3 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.produk .nama-produk .wrap-produk {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.produk .nama-produk .wrap-produk .produk-satu-dan-tiga {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.produk .nama-produk .wrap-produk .produk-satu-dan-tiga div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px 35px 30px;
+    align-items: center;
+    background-color: rgb(98, 140, 224);
+    color: white;
+    gap: 10px;
+}
+
+.produk .nama-produk .wrap-produk .produk-dua-dan-empat {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.produk .nama-produk .wrap-produk .produk-dua-dan-empat div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px 35px 30px;
+    align-items: center;
+    background-color: rgb(98, 140, 224);
+    color: white;
+    gap: 10px;
+}
+
+.target {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.target p {
+    width: 90%;
+}
+
+.target img {
+    margin-top: 20px;
+    width: 75%;
+}
+
+.keuntungan {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(209, 229, 235);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+
+.keuntungan h3 {
+    text-align: center;
+}
+
+.keuntungan .wrap-keuntungan  {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.keuntungan .wrap-keuntungan .wrap-keuntungan-satu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.keuntungan .wrap-keuntungan .wrap-keuntungan-satu .keuntungan-border {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.keuntungan .wrap-keuntungan .wrap-keuntungan-satu .keuntungan-biasa {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.keuntungan .wrap-keuntungan .wrap-keuntungan-dua {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.keuntungan .wrap-keuntungan .wrap-keuntungan-dua .keuntungan-border {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.keuntungan .wrap-keuntungan .wrap-keuntungan-dua .keuntungan-biasa {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.tingkatkan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 136, 255);
+    gap: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.tingkatkan h3 {
+    color: white;
+    width: 90%;
+}
+
+.tingkatkan button {
+    color: rgb(0, 136, 255);
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.manfaat {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(209, 229, 235);
+}
+
+.manfaat .manfaat-produk {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.manfaat .manfaat-produk h3 {
+    text-align: center;
+}
+
+.manfaat .manfaat-produk .wrap-manfaat {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.manfaat .manfaat-produk .wrap-manfaat .text-border {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.manfaat .manfaat-produk .wrap-manfaat .text-biasa {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 15px;
+}
+
+.manfaat .gambar-produk-dua {
+    width: 100%;
+    text-align: center;
+}
+
+.manfaat .gambar-produk-dua img {
+    width: 60%;
+}
+
+.alasan {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(184, 217, 227);
+}
+
+.alasan > h3 {
+    text-align: center;
+}
+
+.alasan .informasi-satu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.alasan .informasi-satu .informasi-card {
+    background-color: white;
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    padding: 15px 35px 20px 20px;
+    border-radius: 4px;
+}
+
+.alasan .informasi-satu .informasi-card img {
+    width: 20%;
+}
+
+.alasan .informasi-dua {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.alasan .informasi-dua .informasi-card {
+    background-color: white;
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    padding: 15px 35px 20px 20px;
+    border-radius: 4px;
+}
+
+.alasan .informasi-dua .informasi-card img {
+    width: 20%;
+}
+
+.bonus {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 40px;
+    background-color: rgb(209, 229, 235);
+}
+
+.bonus h3 {
+    text-align: center;
+}
+
+.bonus .bonus-produk {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.bonus .bonus-produk .bonus-satu {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+    border-top: 4px solid blue;
+    padding-top: 10px;
+}
+
+.bonus .bonus-produk .bonus-dua {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+    border-top: 4px solid blue;
+    padding-top: 10px;
+}
+
+.bonus .bonus-produk .bonus-tiga {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+    border-top: 4px solid blue;
+    padding-top: 10px;
+}
+
+.harga {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+
+.harga .harga-produk {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.harga .harga-produk h4 {
+    color: rgb(220, 140, 140);
+}
+
+.harga .harga-produk button {
+    background-color: rgb(0, 136, 255);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.harga .harga-produk img {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.harga .gambar-produk-tiga {
+    width: 100%;
+    text-align: center;
+}
+
+.harga .gambar-produk-tiga img {
+    width: 40%;
+}
+
+.harga .button-harga {
+    text-align: end;
+    padding-right: 30px;
+}
+
+.harga .button-harga button {
+    background-color: white;
+    color: rgb(0, 136, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 2px 0px 33px 0px rgba(0,0,0,0.41);
+    -webkit-box-shadow: 2px 0px 33px 0px rgba(0,0,0,0.41);
+    -moz-box-shadow: 2px 0px 33px 0px rgba(0,0,0,0.41);
+}
+
+.pertanyaan {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    gap: 35px;
+    align-items: center;
+    background-color: rgb(184, 217, 227);
+}
+
+.pertanyaan > p {
+    text-align: center;
+    width: 90%;
+}
+
+.pertanyaan .wrap-pertanyaan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.pertanyaan .wrap-pertanyaan .pertanyaan-satu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 70%;
+    padding: 30px 20px 50px 20px;
+    background-color: #fff;
+}
+
+.pertanyaan .wrap-pertanyaan .pertanyaan-dua {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 70%;
+    padding: 30px 20px 50px 20px;
+    background-color: #fff;
+}
+
+.pertanyaan .wrap-pertanyaan .pertanyaan-tiga {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 70%;
+    padding: 30px 20px 50px 20px;
+    background-color: #fff;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(0, 136, 255);
+}
+
+footer > div {
+    padding-left: 70px;
+}
+
+footer .admin {
+    display: flex;
+    gap: 10px;
+}
+
+footer .admin img {
+    width: 10%;
+}
+
+footer .admin .admin-nama {
+    display: flex;
+    flex-direction: column;
+}
+
+footer button {
+    background-color: white;
+    color: rgb(0, 136, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+footer .icon {
+    display: flex;
+    gap: 10px;
+}
+
+footer .icon a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer > p {
+    text-align: center;
+}
+
+
+
+
+@media (min-width: 768px) {
+
+    header main {
+        flex-direction: row;
+        padding: 0 30px;
+        justify-content: center;
+    }
+
+    header main .gambar-main {
+        margin-top: 75px;
+        width: 30%;
+    }
+
+    header main .gambar-main img {
+        width: 100%;
+    }
+
+    header main .text-header {
+        width: 50%;
+        align-items: start;
+        padding: 25px 20px 25px 20px;
+    }
+
+    header .sponsor {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    header .sponsor .sponsor-img {
+        justify-content: space-evenly;
+        gap: 35px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .sponsor .sponsor-img > div {
+        gap: 35px;
+        display: flex;
+    }
+
+    article {
+        height: 70vh;
+        /* position: relative; */
+    }
+
+    .card {
+        flex-direction: row;
+        /* height: 30vh; */
+        z-index: 1;
+        margin-top: -200px;
+        flex-wrap: wrap;
+    }
+
+    .card .card-satu {
+        width: 45%;
+        margin-top: 0;
+    }
+
+    .card .card-dua {
+        width: 45%;
+    }
+
+    .card .card-tiga {
+        width: 60%;
+    }
+
+    .masalah {
+        padding: 100px 0;
+    }
+    
+    
+   
+
+    
+}
+
+@media (min-width: 1110px) {
+    header .sponsor .sponsor-img {
+        flex-direction: row;
+        gap: 35px;
+        justify-content: center;
+    }
+}
